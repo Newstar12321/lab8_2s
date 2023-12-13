@@ -26,5 +26,5 @@ int main()
 	size_t beg = str.find_last_of('.') + 1;
 	// создаем переменную ras, в которую копируем текст расширения
 	string ras = str.substr(beg);
-	cout << "Файли имеет расширение:\n" << ras;
+	cout << "Файл имеет расширение:\n" << ras;
 }
